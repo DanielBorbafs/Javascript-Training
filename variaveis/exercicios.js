@@ -34,3 +34,13 @@ function entradaLiberada(idade) {
 }
 console.log(entradaLiberada(21));
 console.log(entradaLiberada(23));
+
+/* OBS: ambos exercícios acima podem ser feito usando expressoes, porém 
+o valor terá que ser predefinido antes. exemplo:*/
+
+const minIdade = 22
+const idadeAtual = 23
+
+const resultado = idadeAtual >= minIdade ? "Pode entrar" : "Nao pode entrar"
+
+console.log(resultado)
