@@ -12,7 +12,6 @@ function verificarMaiorIdade(idade) {
     return "Menor de idade";
   }
 }
-
 // Exemplo de uso da função
 console.log(verificarMaiorIdade(20));  // Saída: "Maior de idade"
 console.log(verificarMaiorIdade(16));  // Saída: "Menor de idade"
@@ -114,3 +113,4 @@ array[2] = 3;
 array[0] = 3;
 array[3] = 3;
 console.log(array);
+
