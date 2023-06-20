@@ -44,3 +44,22 @@ const idadeAtual = 23
 const resultado = idadeAtual >= minIdade ? "Pode entrar" : "Nao pode entrar"
 
 console.log(resultado)
+
+/* Exercício 03 
+  Dado o objeto abaixo, faça as seguintes modificações:
+    . Modifique a propriedade profissao para 'Desenvolvedora'.
+    .  Adicione uma nova propriedade hobbies e atribua a ela um array com pelo menos três hobbies que você goste.
+*/
+const pessoa = {
+  nome: 'Maria',
+  idade: 30,
+  profissao: 'Engenheira'
+};
+
+pessoa.profissao =('Desenvolvedora');
+
+console.log(pessoa)
+
+pessoa.hobbies = ['Jogar Videoagme', 'Passear no parque', 'Surfar'];
+
+console.log(pessoa)
