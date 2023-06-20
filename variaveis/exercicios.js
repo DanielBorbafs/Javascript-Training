@@ -23,3 +23,14 @@ Temos uma boate e precisamos de um programa que verifica a idade do cliente
 e imprima na tela se ele pode entrar ou nao.
 a idade minima para frenquentar nossa boate é 22 anos */
 
+function entradaLiberada(idade) {
+  const idadeBase = 22;
+
+  if(idade >= idadeBase) {
+    return "Seja bem-vindo, Entrada liberada.";
+  } else {
+    return "Infelizmente pela sua idade, nao poderá entrar."
+  }
+}
+console.log(entradaLiberada(21));
+console.log(entradaLiberada(23));
