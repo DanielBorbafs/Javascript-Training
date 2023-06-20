@@ -92,3 +92,25 @@ function calcularSomaArray(numeros) {
 // Exemplo de uso da função
 const numeros = [1, 2, 3, 4, 5];
 console.log(calcularSomaArray(numeros));  // Saída: 15
+
+
+/* Exercício 05 : Dado o array abaixo, faça as seguintes modificações:
+. Adicione o número 12 ao final do array.
+. Remova o primeiro elemento do array.
+. Atribua o valor 0 ao segundo elemento do array
+*/
+/* adicionando o numero 2*/
+const numeros = [2, 4, 6, 8, 10];
+numeros.push(12);
+console.log(numeros);
+
+// removendo numero 2*/
+numeros.splice(0, 1);
+console.log(numeros);
+
+/* Allterando um valor */
+const array = [2,3,4,5];
+array[2] = 3;
+array[0] = 3;
+array[3] = 3;
+console.log(array);
