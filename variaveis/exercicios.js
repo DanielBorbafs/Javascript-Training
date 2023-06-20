@@ -63,3 +63,32 @@ console.log(pessoa)
 pessoa.hobbies = ['Jogar Videoagme', 'Passear no parque', 'Surfar'];
 
 console.log(pessoa)
+
+/*
+Exercício 04 :
+Crie uma função que receba um array de números e retorne a soma de todos os números.
+Utilize let para declarar a variável que irá armazenar a soma */
+
+function calcularSomaArray(numeros) {
+  let soma = 0;
+
+  for (let i = 0; i < numeros.length; i++) {
+    soma += numeros[i];
+  }
+
+  return soma;
+}
+
+// Exemplo de uso da função
+const numerosarray = [1, 2, 3, 4, 5, 2];
+console.log(calcularSomaArray(numerosarray));  // Saída: 15
+
+
+
+/* OUTRA FORMA */
+function calcularSomaArray(numeros) {
+  return numeros.reduce((soma, numero) => soma + numero);
+}
+// Exemplo de uso da função
+const numeros = [1, 2, 3, 4, 5];
+console.log(calcularSomaArray(numeros));  // Saída: 15
