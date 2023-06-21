@@ -3,5 +3,20 @@ Atribua o resultado a uma variável chamada area e exiba o valor no console. */
 const areaRetBase = 40
 const areaRetAlt = 20
 const areaTotal = 40 * 20
-console.log(areaTotal)
+console.log(" A área do retângulo é " + areaTotal + " cm")
 
+
+/* Converta uma temperatura de graus Celsius para Fahrenheit. Dada uma temperatura em graus Celsius, 
+atribua a conversão para Fahrenheit a uma variável chamada fahrenheit e exiba o resultado no console.*/
+
+const celsiusTemp = 90;
+let fahrenheit =celsiusTemp * 1.8 + 32;
+console.log(fahrenheit);
+
+/* Arrow Functions:*/
+
+const celsiusToFahrenheit = celsius => (celsius * 9/5) + 32;
+
+var temperaturaCelsius = 15;
+var temperaturaFahrenheit = celsiusToFahrenheit(temperaturaCelsius);
+console.log(temperaturaFahrenheit); // Output: 59
