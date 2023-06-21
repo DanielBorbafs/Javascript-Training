@@ -47,3 +47,10 @@ let b = 10;
 [a,b] = [b,a]
 console.log("a =", a)
 console.log("b = ", b)
+
+
+// Exercicio 03
+const nome = "Daniel"
+const sobrenome = "Borba"
+const nomeCompleto = (nome + " " + sobrenome)
+console.log(nomeCompleto)
