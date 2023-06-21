@@ -71,17 +71,20 @@ Armazene o resultado em uma variável e exiba-o no console.
 
 Exercício 4: Verificação de triângulo
 Escreva um programa que solicite ao usuário as medidas de três lados de um triângulo
- e verifique se é possível formar um triângulo com essas medidas. Armazene o resultado em uma variável booleana e exiba-o no console.*/
+ e verifique se é possível formar um triângulo com essas medidas. Armazene o resultado em uma variável booleana e exiba-o no console.
+ 
 
+ Exercicio 5: Em uma loja sorteamos dia no qual um cliente premiado escolhe o valor( dentro dos requisitos) 
+ que ele quer pagar por um produto, porém tem algumas regras:
+
+ * o Valor tem que ser maior ou igual a R$ 20,00
+ * o Valor tem que ser um número inteiro, não pode ser quebrado.
+ * No final da compra o cliente pode ainda optar por dividir esse valor com um amigo.
+ */
+
+ 
 
  // Exercício 01 
- /*
- Neste exemplo, a função verificarPrimo recebe um número como parâmetro. Ela verifica se o número é menor ou igual a 1,
-  retornando false caso seja. Em seguida, ela itera de 2 até a raiz quadrada do número,
-   verificando se o número é divisível por algum valor da iteração. Caso seja, retorna false, indicando que o número não é primo. 
-   Se o número passar por todas as verificações, é retornado true, indicando que ele é primo.
- 
- */ 
  function verificarPrimo(numero) {
     if (numero <= 1) {
       return false;
