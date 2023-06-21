@@ -64,3 +64,20 @@ if (mediaTotal >= 7) {
     console.log("Voce esta em recuperacao")
 }
 
+
+/* Exercicio 05 
+Classificação de triângulos: Crie um programa que solicite ao usuário três comprimentos de lados de um triângulo
+ e verifique se é um triângulo válido. Em seguida, classifique o triângulo como equilátero (todos os lados iguais), 
+ isósceles (dois lados iguais) ou escaleno (todos os lados diferentes).
+ */
+const ladoA = parseFloat(prompt("Digite o Lado A do triângulo"));
+const ladoB = parseFloat(prompt("Digite o Lado B do triângulo"));
+const ladoC = parseFloat(prompt("Digite o Lado C do triângulo"));
+
+if (ladoA === ladoB && ladoA === ladoC) {
+  console.log("Triângulo Equilátero - Três lados iguais");
+} else if (ladoA === ladoB || ladoA === ladoC || ladoB === ladoC) {
+  console.log("Triângulo Isósceles - Dois lados iguais");
+} else {
+  console.log("Triângulo Escaleno - Todos os lados diferentes");
+}
