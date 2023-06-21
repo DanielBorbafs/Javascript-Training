@@ -36,3 +36,24 @@ console.log(isPar);
 const numero = 5; 
 const isImpar = numero  % 2 !!=0;
 console.log(isImpar);
+
+/* Exercicio 05 
+Calcule o Preço total de uma compra, dado um preço do produto e a quantidade desejada,
+atribua o resultado a uma variável chamada precoTotal e exiba no console. */
+
+const produto = 20
+const quantidade = 10
+precoTotal = quantidade * produto
+console.log(precoTotal)
+
+
+// Em arrow function 
+
+const calcularPrecoTotal = (precoUnitario, quantidade) => precoUnitario * quantidade
+
+const precoUnitario = 10;
+const quantidade = 5;
+
+const precoTotal = calcularPrecoTotal(precoUnitario, quantidade);
+console.log(precoTotal)
+
