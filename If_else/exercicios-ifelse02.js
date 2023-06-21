@@ -28,3 +28,15 @@ if (idade >= 18 ) {
 } else {
     console.log("Voce é menor de idade")
 }
+
+// Exercicio 04
+const numero = prompt("digite um número")
+if ( numero % 2 === 0) {
+    console.log("O numero " + numero + " é par")
+} else {
+    console.log("O numero " + numero + " é Impar")
+}
+
+// Exercicio 05
+
+const
