@@ -27,6 +27,11 @@ Divisão de x por y
 Resto da divisão de x por y
 */
 
+// Exercicio 04 
+let numero = 10
+let texto = numero.toString()
+console.log(texto)
+console.log(typeof texto)
 
 // Exercicio 01 
 const getIdadeUsuario = (prompt("Qual o ano que você nasceu?"))
