@@ -127,3 +127,27 @@ if (numero >= 0) {
 } else {
   console.log("O número deve ser inteiro positivo.");
 }
+
+
+// Exercicio 04 
+
+const ladoA = parseFloat(prompt("Digite o valor do lado A do triângulo:"));
+const ladoB = parseFloat(prompt("Digite o valor do lado B do triângulo:"));
+const ladoC = parseFloat(prompt("Digite o valor do lado C do triângulo:"));
+
+const formaTriangulo = (ladoA + ladoB > ladoC) && (ladoA + ladoC > ladoB) && (ladoB + ladoC > ladoA);
+
+console.log("É possível formar um triângulo? " + formaTriangulo);
+
+/*
+Explicação mais detalhada :
+
+Condição dos comprimentos dos lados: A soma de dois lados quaisquer deve ser maior que o comprimento do terceiro lado. 
+Em outras palavras:
+
+Se a, b e c são os comprimentos dos lados de um triângulo, então a + b > c, a + c > b e b + c > a.
+Condição de não degeneração: Nenhum dos lados do triângulo pode ter comprimento igual a zero (0). 
+Ou seja, os lados devem ter comprimentos positivos.
+
+
+*/
