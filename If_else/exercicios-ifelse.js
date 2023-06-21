@@ -44,7 +44,10 @@ if ( numero % 2 === 0) {
     console.log("O numero " + numero + " é Impar")
 }
 
-
+/* Exercício 04 
+Cálculo de média: Escreva um programa que solicite ao usuário três notas e calcule a média.
+ Com base na média, exiba uma mensagem informando se o aluno foi aprovado (média igual ou maior que 7),
+  reprovado (média menor que 4) ou em recuperação (média entre 4 e 7).*/
 
 const nota1 = parseFloat(prompt("Escolha a primeira nota"));
 const nota2 = parseFloat(prompt("Escolha a segunda nota"));
