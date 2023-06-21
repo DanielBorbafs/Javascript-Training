@@ -45,7 +45,19 @@ if ( numero % 2 === 0) {
 }
 
 
-const nota1 = prompt("Escolha a primeira nota")
-const nota2 = prompt("Escolha a segunda nota")
-const nota3 = prompt("Escolha a terceira nota")
+
+const nota1 = parseFloat(prompt("Escolha a primeira nota"));
+const nota2 = parseFloat(prompt("Escolha a segunda nota"));
+const nota3 = parseFloat(prompt("Escolha a terceira nota"));
+
+const mediaTotal = (nota1 + nota2 + nota3) / 3;
+console.log(mediaTotal)
+
+if (mediaTotal >= 7) {
+    console.log("Aprovado")
+} else if (mediaTotal <= 4) {
+    console.log("Reprovado")
+} else {
+    console.log("Voce esta em recuperacao")
+}
 
