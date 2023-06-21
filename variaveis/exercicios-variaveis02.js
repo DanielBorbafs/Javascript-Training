@@ -38,3 +38,12 @@ const anoAtual = new Date().getFullYear();
 const idadeUsuario = anoAtual - anoNascimento;
 console.log("Você possui " + idadeUsuario + " anos");
 
+
+// Exercicio 02
+
+let a = 5;
+let b = 10;
+
+[a,b] = [b,a]
+console.log("a =", a)
+console.log("b = ", b)
