@@ -57,3 +57,73 @@ const quantidade = 5;
 const precoTotal = calcularPrecoTotal(precoUnitario, quantidade);
 console.log(precoTotal)
 
+/* Exercício 1: Verificação de número primo
+Escreva um programa que solicite ao usuário um número inteiro e verifique se ele é um número primo. 
+Armazene o resultado em uma variável booleana e exiba-o no console.
+
+Exercício 2: Cálculo do desconto
+Escreva um programa que solicite ao usuário o valor de um produto e o percentual de desconto a ser aplicado. 
+Calcule o valor do desconto e o preço final do produto com o desconto. Armazene os resultados em variáveis e exiba-os no console.
+
+Exercício 3: Cálculo do fatorial
+Escreva um programa que solicite ao usuário um número inteiro positivo e calcule o seu fatorial. 
+Armazene o resultado em uma variável e exiba-o no console.
+
+Exercício 4: Verificação de triângulo
+Escreva um programa que solicite ao usuário as medidas de três lados de um triângulo
+ e verifique se é possível formar um triângulo com essas medidas. Armazene o resultado em uma variável booleana e exiba-o no console.*/
+
+
+ // Exercício 01 
+ /*
+ Neste exemplo, a função verificarPrimo recebe um número como parâmetro. Ela verifica se o número é menor ou igual a 1,
+  retornando false caso seja. Em seguida, ela itera de 2 até a raiz quadrada do número,
+   verificando se o número é divisível por algum valor da iteração. Caso seja, retorna false, indicando que o número não é primo. 
+   Se o número passar por todas as verificações, é retornado true, indicando que ele é primo.
+ 
+ */ 
+ function verificarPrimo(numero) {
+    if (numero <= 1) {
+      return false;
+    }
+  
+    for (let i = 2; i <= Math.sqrt(numero); i++) {
+      if (numero % i === 0) {
+        return false;
+      }
+    }
+  
+    return true;
+  }
+  
+  // Exemplo de uso da função:
+  let numero = 17;
+  if (verificarPrimo(numero)) {
+    console.log(numero + " é primo");
+  } else {
+    console.log(numero + " não é primo");
+  }
+  
+
+// Exercicio 02
+const valorProduto = parseInt(prompt("Qual valor do produto?"));
+const descontoProduto = (prompt("qual desconto em % ?"))
+const valorDesconto = valorProduto * (descontoProduto / 100)
+const valorFinal = valorProduto - valorDesconto
+console.log("Após o desconto aplicado, o valor da sua compra foi de " +"R$"+ valorFinal)
+
+
+//Exercicio 03
+
+let numero = parseInt(prompt("Digite um número inteiro positivo:"));
+let fatorial = 1;
+
+if (numero >= 0) {
+  for (let i = 2; i <= numero; i++) {
+    fatorial *= i;
+  }
+  
+  console.log("O fatorial de " + numero + " é: " + fatorial);
+} else {
+  console.log("O número deve ser inteiro positivo.");
+}
