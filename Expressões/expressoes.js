@@ -20,3 +20,19 @@ const celsiusToFahrenheit = celsius => (celsius * 9/5) + 32;
 var temperaturaCelsius = 15;
 var temperaturaFahrenheit = celsiusToFahrenheit(temperaturaCelsius);
 console.log(temperaturaFahrenheit); // Output: 59
+
+/* 
+Exercicio 04
+
+Verifique se um numero é par, crie uma expressão que retorne true se um número fornecido for par
+e false caso contrário. atribua o resultado a uma variável chamada Ispar
+*/
+const numero = 10;
+
+const isPar = numero % 2 === 0;
+console.log(isPar);
+
+// se for impar
+const numero = 5; 
+const isImpar = numero  % 2 !!=0;
+console.log(isImpar);
