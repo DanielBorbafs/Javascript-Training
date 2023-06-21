@@ -27,11 +27,17 @@ Divisão de x por y
 Resto da divisão de x por y
 */
 
-// Exercicio 04 
-let numero = 10
-let texto = numero.toString()
-console.log(texto)
-console.log(typeof texto)
+// Exercicio 05
+x = 10
+y = 20
+let soma = x + y;
+console.log(soma)
+let multiplicação = x * y;
+console.log(multiplicação)
+const divisao = x / y
+console.log(divisao)
+const restDivisao = x % y
+console.log(restDivisao)
 
 // Exercicio 01 
 const getIdadeUsuario = (prompt("Qual o ano que você nasceu?"))
@@ -59,3 +65,9 @@ const nome = "Daniel"
 const sobrenome = "Borba"
 const nomeCompleto = (nome + " " + sobrenome)
 console.log(nomeCompleto)
+
+// Exercicio 04 
+let numero = 10
+let texto = numero.toString()
+console.log(texto)
+console.log(typeof texto)
