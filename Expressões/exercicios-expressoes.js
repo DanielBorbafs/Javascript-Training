@@ -78,11 +78,22 @@ Escreva um programa que solicite ao usuário as medidas de três lados de um tri
  que ele quer pagar por um produto, porém tem algumas regras:
 
  * o Valor tem que ser maior ou igual a R$ 20,00
+ * Pode escolher um valor de desconto em %
  * o Valor tem que ser um número inteiro, não pode ser quebrado.
  * No final da compra o cliente pode ainda optar por dividir esse valor com um amigo.
  */
 
- 
+ // Exercicio 05
+
+const valorEscolhidoProduto = parseInt(prompt("Olá, qual valor deseja pagar pelo produto ?"))
+const valorEscolhidoDesconto = prompt("Qual valor de desconto em % você deseja?")
+const valorDescontoProduto = valorEscolhidoProduto * (valorEscolhidoDesconto /100)
+const valorPagoSozinho = valorEscolhidoProduto - valorDescontoProduto 
+const informacaocliente = prompt("Deseja dividir o valor da  compra com um amigo?")
+const valorPagoDupla = valorPagoSozinho / 2 
+console.log("Se você optar por escolher pagar sozinho, irá pagar um valor de R$" + valorPagoSozinho +
+ ", Se optar por pagar em dupla irá pagar um valor de R$" + valorPagoDupla)
+
 
  // Exercício 01 
  function verificarPrimo(numero) {
