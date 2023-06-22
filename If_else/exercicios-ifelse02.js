@@ -39,4 +39,13 @@ if ( numero % 2 === 0) {
 
 // Exercicio 05
 
-const
+const Diausuario = (prompt("escolha um numero ?"))
+if ( Diausuario == 1) {
+    console.log("Domingo")
+} else if(Diausuario == 2) {
+    console.log("Segunda-feira")
+} else if(Diausuario ==3) {
+    console.log("Terça-Feira")
+} else if(Diausuario == 4) {
+    console.log("Quarta-Feira")
+}
