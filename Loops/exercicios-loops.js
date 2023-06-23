@@ -90,4 +90,13 @@ Dentro dos loops aninhados, calculamos o resultado da multiplicação de i por j
 Dessa forma, o código irá gerar a tabuada de multiplicação de 1 a 10, imprimindo cada resultado no console no formato "2 x 3 = 6", por exemplo.
 
 */
+
+// Exercicio 07
+for (let i = 10; i >= 0; i--) {
+    if (i === 0) {
+      console.log("Lançamento!");
+    } else {
+      console.log(i);
+    }
+  }
   
