@@ -1,7 +1,6 @@
 /* 
 
-Exercício de impressão de elementos:
-Dado um array de strings, escreva um loop for que imprima cada elemento no console.
+
 
 Exercício de busca de elemento:
 Dado um array de números, escreva um loop for que verifique se um determinado número está presente no array. Se estiver, imprima "Encontrado!" no console; caso contrário, imprima "Não encontrado!".
@@ -18,12 +17,7 @@ Escreva um loop for que faça uma contagem regressiva de 10 a 0. Imprima cada n�
 for ( let i = 1; i < 11; i++) {
     console.log(i)
 }
-// 05 - Dado um array de strings, escreva um loop for que imprima cada elemento no console.
 
-let elogios = ["Bonito", "Educado", "inteligente"]
-for (let i = 0; i < elogios.length; i++) {
-    console.log(elogios[i])
-}
 // 02 - Escreva um loop for que imprima os números de 10 a 1 no console.
 for (let i=10; i >= 1; i--) {
     console.log(i)
@@ -54,3 +48,9 @@ Dentro do loop, multiplicamos o valor atual do produto pelo elemento corresponde
 usando meuArray[i]. Dessa forma, o produto é atualizado a cada iteração, 
 acumulando o resultado da multiplicação de todos os elementos.
 */
+// 05 - Dado um array de strings, escreva um loop for que imprima cada elemento no console.
+
+let elogios = ["Bonito", "Educado", "inteligente"]
+for (let i = 0; i < elogios.length; i++) {
+    console.log(elogios[i])
+}
