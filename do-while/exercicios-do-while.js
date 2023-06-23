@@ -20,3 +20,21 @@ do {
   console.log(i);
   i++;
 } while (i <= 5);
+
+//Exercício 3: Calcular a média de uma sequência de números fornecidos pelo usuário:
+
+var sum = 0;
+var count = 0;
+var number;
+
+do {
+  number = parseInt(prompt("Digite um número (ou 0 para sair):"));
+
+  if (number !== 0) {
+    sum += number;
+    count++;
+  }
+} while (number !== 0);
+
+var average = sum / count;
+console.log("A média dos números digitados é: " + average);
