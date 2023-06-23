@@ -1,8 +1,5 @@
 /* 
 
-Exercício de multiplicação de elementos:
-Dado um array de números, escreva um loop for que calcule e retorne o produto de todos os elementos no array.
-
 Exercício de impressão de elementos:
 Dado um array de strings, escreva um loop for que imprima cada elemento no console.
 
@@ -21,7 +18,12 @@ Escreva um loop for que faça uma contagem regressiva de 10 a 0. Imprima cada n�
 for ( let i = 1; i < 11; i++) {
     console.log(i)
 }
+// 05 - Dado um array de strings, escreva um loop for que imprima cada elemento no console.
 
+let elogios = ["Bonito", "Educado", "inteligente"]
+for (let i = 0; i < elogios.length; i++) {
+    console.log(elogios[i])
+}
 // 02 - Escreva um loop for que imprima os números de 10 a 1 no console.
 for (let i=10; i >= 1; i--) {
     console.log(i)
