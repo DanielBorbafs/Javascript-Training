@@ -1,10 +1,6 @@
 /* 
 
-Exercício de busca de elemento:
-Dado um array de números, escreva um loop for que verifique se um determinado número está presente no array. Se estiver, imprima "Encontrado!" no console; caso contrário, imprima "Não encontrado!".
 
-Exercício de tabuada:
-Escreva um loop for aninhado para gerar a tabuada de multiplicação de 1 a 10. Imprima cada resultado no formato "2 x 3 = 6".
 
 Exercício de contagem regressiva:
 Escreva um loop for que faça uma contagem regressiva de 10 a 0. Imprima cada número no console e, quando chegar a 0, imprima "Lançamento!".
@@ -72,3 +68,26 @@ if (encontrado) {
 } else {
   console.log("Não encontrado!");
 }
+
+
+
+
+//Escreva um loop for aninhado para gerar a tabuada de multiplicação de 1 a 10. Imprima cada resultado no formato "2 x 3 = 6".
+for (let i = 1; i <= 10; i++) {
+    for (let j = 1; j <= 10; j++) {
+      let resultado = i * j;
+      console.log(`${i} x ${j} = ${resultado}`);
+    }
+}
+
+/* 
+Neste exemplo, temos dois loops "for" aninhados. O primeiro loop é responsável por iterar de 1 a 10 
+e define a variável i como o multiplicador. O segundo loop itera de 1 a 10 e define a variável j como o multiplicando.
+
+Dentro dos loops aninhados, calculamos o resultado da multiplicação de i por j e armazenamos na variável resultado.
+ Em seguida, utilizamos o console.log para imprimir cada resultado no formato desejado, usando a interpolação de strings com ${i}, ${j} e ${resultado}.
+
+Dessa forma, o código irá gerar a tabuada de multiplicação de 1 a 10, imprimindo cada resultado no console no formato "2 x 3 = 6", por exemplo.
+
+*/
+  
