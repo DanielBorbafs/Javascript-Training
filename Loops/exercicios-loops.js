@@ -1,7 +1,5 @@
 /* 
 
-
-
 Exercício de busca de elemento:
 Dado um array de números, escreva um loop for que verifique se um determinado número está presente no array. Se estiver, imprima "Encontrado!" no console; caso contrário, imprima "Não encontrado!".
 
@@ -53,4 +51,24 @@ acumulando o resultado da multiplicação de todos os elementos.
 let elogios = ["Bonito", "Educado", "inteligente"]
 for (let i = 0; i < elogios.length; i++) {
     console.log(elogios[i])
+}
+
+// 06 - Dado um array de números, escreva um loop for que verifique se um determinado número está presente no array. 
+//Se estiver, imprima "Encontrado!" no console; caso contrário, imprima "Não encontrado!".
+
+let numeros = [4, 2, 6, 8, 10];
+let numeroProcurado = 2;
+let encontrado = false;
+
+for (let i = 0; i < numeros.length; i++) {
+  if (numeros[i] === numeroProcurado) {
+    encontrado = true;
+    break;
+  }
+}
+
+if (encontrado) {
+  console.log("Encontrado!");
+} else {
+  console.log("Não encontrado!");
 }
