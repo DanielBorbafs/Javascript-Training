@@ -38,3 +38,5 @@ do {
 
 var average = sum / count;
 console.log("A média dos números digitados é: " + average);
+
+
