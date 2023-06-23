@@ -1,8 +1,5 @@
 /* 
 
-Exercício de soma de elementos:
-Dado um array de números, escreva um loop for que calcule e retorne a soma de todos os elementos no array.
-
 Exercício de multiplicação de elementos:
 Dado um array de números, escreva um loop for que calcule e retorne o produto de todos os elementos no array.
 
@@ -39,3 +36,19 @@ for (let i = 0; i < numeros.length; i++) {
   soma += numeros[i];
 }
 console.log(soma);
+
+// 04 - Dado um array de números, escreva um loop for que calcule e retorne o produto de todos os elementos no array.
+let meuArray = [2, 3, 4, 5];
+let produto = 1;
+
+for (let i = 0; i < meuArray.length; i++) {
+  produto *= meuArray[i];
+}
+
+console.log(produto);  // Saída: 120
+/* Explicação
+Este é o loop "for". Vamos percorrer cada elemento do array usando a variável de controle i. Ela começa com o valor 0 (que é o índice do primeiro elemento) e é incrementada em 1 a cada iteração até que seja menor que o comprimento do array (meuArray.length).
+Dentro do loop, multiplicamos o valor atual do produto pelo elemento correspondente no meuArray,
+usando meuArray[i]. Dessa forma, o produto é atualizado a cada iteração, 
+acumulando o resultado da multiplicação de todos os elementos.
+*/
