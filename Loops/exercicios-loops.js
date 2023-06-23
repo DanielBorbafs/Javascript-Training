@@ -30,7 +30,7 @@ for ( let i = 1; i < 11; i++) {
     console.log(i)
 }
 
-// Exercicio 02
+// 02 - Escreva um loop for que imprima os números de 10 a 1 no console.
 for (let i=10; i >= 1; i--) {
     console.log(i)
 }
