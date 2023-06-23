@@ -12,3 +12,11 @@ do {
     console.log("Tente novamente. O número correto era: " + number);
   }
 } while (guessedNumber !== number);
+
+//Exercício 2: Imprimir os números de 1 a 5 usando um loop "do-while":
+var i = 1;
+
+do {
+  console.log(i);
+  i++;
+} while (i <= 5);
