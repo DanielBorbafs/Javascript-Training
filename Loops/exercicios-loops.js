@@ -1,9 +1,4 @@
 /* 
-Exercício de contagem ascendente:
-01 - Escreva um loop for que imprima os números de 1 a 10 no console.
-
-Exercício de contagem descendente:
-02 Escreva um loop for que imprima os números de 10 a 1 no console.
 
 Exercício de soma de elementos:
 Dado um array de números, escreva um loop for que calcule e retorne a soma de todos os elementos no array.
@@ -34,3 +29,14 @@ for ( let i = 1; i < 11; i++) {
 for (let i=10; i >= 1; i--) {
     console.log(i)
 }
+
+
+// 03- Dado um array de números, escreva um loop for que calcule e retorne a soma de todos os elementos no array.
+let numeros = [1, 2, 3, 4, 5];
+let soma = 0;
+
+for (let i = 0; i < numeros.length; i++) {
+  soma += numeros[i];
+}
+
+console.log(soma); // Output: 15
