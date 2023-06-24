@@ -37,7 +37,7 @@ if ( numero % 2 === 0) {
     console.log("O numero " + numero + " é Impar")
 }
 
-// Exercicio 05
+//Exercicio 05
 
 const Diausuario = (prompt("escolha um numero ?"))
 if ( Diausuario == 1) {
