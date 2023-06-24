@@ -86,7 +86,6 @@ e define a variável i como o multiplicador. O segundo loop itera de 1 a 10 e de
 
 Dentro dos loops aninhados, calculamos o resultado da multiplicação de i por j e armazenamos na variável resultado.
  Em seguida, utilizamos o console.log para imprimir cada resultado no formato desejado, usando a interpolação de strings com ${i}, ${j} e ${resultado}.
-
 Dessa forma, o código irá gerar a tabuada de multiplicação de 1 a 10, imprimindo cada resultado no console no formato "2 x 3 = 6", por exemplo.
 
 */
