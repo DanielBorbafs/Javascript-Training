@@ -27,3 +27,24 @@ const array = [ 10, 11, 12 , 18 , 14 , 16 , 20, 21, 34, 38, 40, 20, 10]
 array.pop() 
 array.shift()
 console.log(array)
+
+//03 
+const array = [ 11, 12 , 10 , 14 , 16 , 20, 21, 34, 38, 40, 20]
+array[2] = 10
+console.log(array)
+
+// 04 
+const array = [ 11, 12 , 10 , 14 , 16 , 20, 21, 34, 38, 40, 20]
+const newArray = array.filter((element) => {
+    return element % 2 === 0; // Filtrando apenas os números pares
+  });
+console.log(newArray)
+
+
+//5 
+const array = [ 11, 12 , 10 , 14 , 16 , 20, 21, 34, 38, 40, 20]
+const soma = array.reduce((acumulador, valorAtual) => {
+  return acumulador + valorAtual;
+}, 0);
+
+console.log(soma);
