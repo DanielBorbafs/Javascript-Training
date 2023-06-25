@@ -16,6 +16,7 @@ Exercício 5: Verificação de triângulo
 Escreva um programa que solicite ao usuário as medidas de três lados de um triângulo
  e verifique se é possível formar um triângulo com essas medidas. Armazene o resultado em uma variável booleana e exiba-o no console.*/
 
+ 
  /* Exercicio 01
 Escreva um programa que solicite ao usuário o valor de um produto e o percentual de desconto a ser aplicado. 
 Calcule o valor do desconto e o preço final do produto com o desconto. Armazene os resultados em variáveis e exiba-os no console.
