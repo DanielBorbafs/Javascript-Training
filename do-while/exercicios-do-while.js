@@ -13,6 +13,7 @@ do {
   }
 } while (guessedNumber !== number);
 
+
 //Exercício 2: Imprimir os números de 1 a 5 usando um loop "do-while":
 var i = 1;
 
@@ -40,3 +41,19 @@ var average = sum / count;
 console.log("A média dos números digitados é: " + average);
 
 
+// exercicio 04 : Calcular a média de salarios de um usuario ao decorrer de sua carreira.
+
+var soma = 0;
+var count = 0;
+var salario = 0;
+
+do {
+  salario = parseInt(prompt("Digite o valor do seu salario, um por vez, caso tenha terminado digite 0 para fazermos os calculos"))
+  if (salario !== 0) {
+    soma += salario;
+    count++;
+  }
+  while(salario !==0);
+  var mediaSalarial = soma / count
+  console.log( "A média salario do senhor é de R$" + mediaSalarial);
+}
