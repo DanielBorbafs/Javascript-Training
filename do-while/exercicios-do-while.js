@@ -57,3 +57,4 @@ do {
   var mediaSalarial = soma / count
   console.log( "A média salario do senhor é de R$" + mediaSalarial);
 }
+
