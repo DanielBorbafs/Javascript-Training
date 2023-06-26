@@ -34,3 +34,4 @@ const soma = array.reduce((acumulador, valorAtual) => {
 }, 0);
 
 console.log(soma);
+
