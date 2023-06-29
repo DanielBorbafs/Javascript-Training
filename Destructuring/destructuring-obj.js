@@ -21,3 +21,5 @@ const {nome, preco, desconto} = celular
 const valorDesconto = preco * (desconto / 100);
 const valorTotal = preco - valorDesconto
 console.log("O Valor do celular com o desconto ficaria R$ " + valorTotal.toFixed(2));
+
+
