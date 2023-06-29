@@ -58,3 +58,13 @@ do {
   console.log( "A média salario do senhor é de R$" + mediaSalarial);
 }
 
+
+
+// Preciso de uma contagem na qual após o numero 10 transmita uma msg escrito ("VAI!!")
+var i = 1;
+
+do {
+  console.log(i);
+  i++;
+} while( i  <= 10)
+console.log("VAI")
