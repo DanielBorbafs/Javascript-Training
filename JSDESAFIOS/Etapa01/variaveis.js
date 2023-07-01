@@ -18,3 +18,16 @@ console.log(num)
 let num;
 let num = 2
 console.log(num)
+//*****************
+
+// DESAFIO 03 Aqui, temos duas variáveis ​​numOne e numTwo. numOne já tem um valor. Atribua a numTwo o valor de numOne e execute o código.
+let numOne = 10
+let numTwo;
+console.log(numTwo)
+//Resposta
+let numOne = 10
+let numTwo = numOne;
+console.log(numTwo)
+
+
+
