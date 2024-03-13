@@ -8,3 +8,9 @@ console.log(valor01 * valor02)
 console.log(valor01 / valor02)
 //subtração 
 console.log(valor01 - valor02)
+---------------------------------------------------
+// Calcular o perímetro de um retangulo
+let width = 120
+let height = 150
+const perimetroRetangulo = 2 * (width + height)
+console.log("O perímetro de um retângulo é: " +  perimetroRetangulo + "m²")
