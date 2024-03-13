@@ -24,3 +24,14 @@ console.log(areaQuadrado)
 let lado01 = 12;
 const perimetroQuadrado = 4 * lado01; 
 console.log("O perímetro do quadrado é " + perimetroQuadrado + " unidades");
+//---------------------------------------------------
+// Converter Celsius para Fahrenheit
+let celsius = 26;
+const fahrenheit = celsius * 1.8 + 32;
+console.log("A temperatura em Fahrenheit é " + fahrenheit + "°F");
+//------------------------------------------------------------------
+//°C = (°F − 32) ÷ 1, 8
+// Converta fahrenheit para celsius
+let fahrenheit = 52;
+const celsius = (fahrenheit - 32) / 1.8
+console.log(celsius)
