@@ -25,3 +25,7 @@ c %= 3; // Equivalente a c = c % 3;
 // Atribuição de Exponenciação
 let d = 2;
 d **= 3; // Equivalente a d = d ** 3;
+
+let idade = parseInt(prompt("Digite sua idade: "));
+let status = (idade >= 18) ? "Maior de idade" : "Menor de idade";
+console.log(status);
