@@ -3,7 +3,6 @@ function getIdade(idade) {
     let idadeget = idade >= 18 ? 'maior de idade' : 'menor de idade'
     return idadeget
 }
-  
 console.log(getIdade(17));
 
 
