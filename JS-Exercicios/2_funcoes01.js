@@ -5,5 +5,7 @@ function getIdade(idade) {
 }
 console.log(getIdade(17));
 
+// outro exercício 
+
 
 
