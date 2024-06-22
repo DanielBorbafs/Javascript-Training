@@ -13,3 +13,6 @@ let EstoqueAtualProdutoB = EstoqueProdutoB -= VendaProdutoB
 
 console.log("O Total de produtos A no estoque é de: " + EstoqueAtualProdutoA)
 console.log("O Total de produtos B no estoque é de: " + EstoqueAtualProdutoB)
+
+
+

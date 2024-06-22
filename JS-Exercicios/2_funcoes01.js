@@ -5,7 +5,11 @@ function getIdade(idade) {
 }
 console.log(getIdade(17));
 
-// outro exercício 
+/* Crie um programa no qual verifica se um número é par */
 
+function isPar(numero) {
+    let message = numero % 2 === 0 ? "o Número é par" : "O Número é Impar"
+    return console.log(message)
+}
 
-
+isPar(3)
