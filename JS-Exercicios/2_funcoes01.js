@@ -13,3 +13,12 @@ function isPar(numero) {
 }
 
 isPar(3)
+
+/* Crie uma funcao que recebe dois valores e retorna se eles são iguais ou não */
+
+function compara(a,b){
+    let comparacao = a === b ? "é Igual" : "não é igual"
+    return console.log(comparacao)
+}
+
+compara(10, 10)
