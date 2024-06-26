@@ -22,3 +22,5 @@ function compara(a,b){
 }
 
 compara(10, 10)
+
+// exercício 03
