@@ -57,3 +57,7 @@ console.log(calculadora(10, '5', '+')); // "Erro: a e b devem ser números"
 console.log(calculadora(10, 0, '/')); // "Erro: divisão por zero"
 console.log(calculadora(10, 5, 'x')); // "Erro: operação inválida"
 
+
+
+// exercício 03
+
