@@ -59,5 +59,5 @@ console.log(calculadora(10, 5, 'x')); // "Erro: operação inválida"
 
 
 
-// exercício 03
+
 
