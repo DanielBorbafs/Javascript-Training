@@ -42,5 +42,3 @@ function criarMoto(marca, modelo, ano) {
 
 const minhaMoto = criarMoto('Honda','Sahara 300', 2023);
 console.log(minhaMoto.criacao());
-
-// exercício 04
