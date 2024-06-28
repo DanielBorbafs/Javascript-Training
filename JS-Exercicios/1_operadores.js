@@ -58,6 +58,13 @@ console.log(calculadora(10, 0, '/')); // "Erro: divisão por zero"
 console.log(calculadora(10, 5, 'x')); // "Erro: operação inválida"
 
 
+/* exercicio 02 crie uma função que recebe 3 valores e tire a média dos 3 */
 
+function media3(valor1, valor2, valor3) {
+    let mediaTotal =  (valor1 + valor2 + valor3) / 3
+    return console.log(mediaTotal)
+}
+
+media3(10,10,10)
 
 
