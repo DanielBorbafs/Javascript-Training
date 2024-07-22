@@ -48,7 +48,7 @@ const counter2 = createCounter(-2)
 console.log(counter2())
 console.log(counter2())
 console.log(counter2())
-console.log(counter2())
+
 
 
 console.log(counter2())
